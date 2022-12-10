@@ -49,7 +49,7 @@ Initializes the tsconfig.json
 
 <br />
 
-### **Adding SASS and Tailwind CSS to your project**
+### **Adding SCSS and Tailwind CSS to your project**
 ---
 
 `npx sb init --builder webpack5`
