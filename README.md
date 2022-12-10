@@ -58,7 +58,7 @@ If you're not planning to use Sass in your project then  `npx sb init` works too
 
 <br />
 
-`yarn add -D sass style-loader css-loader sass-loader@10.2.0`
+`yarn add -D sass style-loader css-loader sass-loader`
 
 Adding Sass to the project
 
