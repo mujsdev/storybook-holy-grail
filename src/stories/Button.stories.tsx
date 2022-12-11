@@ -17,7 +17,7 @@ Base.args = {
 
 export const All = () => {
   return (
-    <div style={{ display: "flex", gap: "12px" }}>
+    <div className="flex gap-12">
       <Button color="black" hasBorder>
         Raisin Black 🍇
       </Button>
@@ -28,7 +28,7 @@ export const All = () => {
 
 export const Sizes = () => {
   return (
-    <div style={{ display: "flex", alignItems: "flex-start", gap: "12px" }}>
+    <div className="flex items-start gap-12">
       <Button color="black" hasBorder>
         Default Raisin
       </Button>
@@ -41,7 +41,7 @@ export const Sizes = () => {
 
 export const Loading = () => {
   return (
-    <div style={{ display: "flex", gap: "12px" }}>
+    <div className="flex gap-12">
       <Button color="black" hasBorder isLoading>
         Loading...
       </Button>
@@ -54,7 +54,7 @@ export const Loading = () => {
 
 export const Disabled = () => {
   return (
-    <div style={{ display: "flex", gap: "12px" }}>
+    <div className="flex gap-12">
       <Button color="black" hasBorder disabled>
         Hey there 👋
       </Button>
