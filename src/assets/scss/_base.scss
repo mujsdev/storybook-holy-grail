@@ -33,9 +33,21 @@ h4,
 h5,
 h6 {
   line-height: 1.2;
+  font-family: "Montserrat Black" !important;
 }
 
-p {
+p,
+td {
   line-height: 1.5;
-  font-family: "Montserrat Medium";
+  font-family: "Montserrat Medium" !important;
+}
+
+th {
+  font-family: "Montserrat ExtraBold";
+}
+
+code {
+  color: #27272b !important;
+  border: 1px solid #27272b !important;
+  background-color: #fdebba !important;
 }
