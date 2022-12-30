@@ -4,14 +4,23 @@ Note:  In case you're new to Storybook. [Learn more here](https://storybook.js.o
 
 <br />
 
-> ## **Repo contents**
+## **Repo contents**
+---
 This repo consists of the following so far:
-1. Components
+1. Style guide
+   * Colors
+   * Typography
+   * Icons
+   * Box shadows
+   * Border radii
+   * Spacings
+2. Components
    * Button
 
 <br />
 
-> ## **Getting started**
+## **Getting started**
+---
 It only takes two (commands) to tango!
 
 `yarn install`
@@ -20,7 +29,8 @@ It only takes two (commands) to tango!
 
 <br />
 
-> ## **Initial project setup**
+## **Initial project setup**
+---
 In case you're curious what commands were used to set up this project.
 
 <br />
@@ -73,3 +83,18 @@ Adding Tailwind CSS to the project
 `yarn add -D @storybook/addon-postcss`
 
 Adding an addon for PostCSS for Tailwind CSS
+
+<br />
+
+### **Adding Fontawesome Icons**
+---
+
+`yarn add @fortawesome/fontawesome-svg-core`
+
+<br />
+
+Free icon styles (you can add either one or both)
+
+`yarn add @fortawesome/free-solid-svg-icons`
+
+`yarn add @fortawesome/free-regular-svg-icons`
